@@ -5,12 +5,12 @@ function Display(props){
  
     return (
         <div className="counterContainer">
-            <div className="ballContainer">
+            <div className="numberContainer">
                 <div className="balls">Balls</div>
                 <div>{balls}</div>
             </div>
 
-             <div className="strikeContainer">
+             <div className="numberContainer">
                 <div className="strikes">Strikes</div>
                 <div>{strikes}</div>
             </div>

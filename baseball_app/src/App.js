@@ -9,7 +9,7 @@ function App() {
   // const [fouls, setFouls] = useState(0);
   return (
     <div className="App">
-      
+        <h1>LOSEM</h1>
         <Display balls={balls} strikes={strikes}/>
         <Dashboard 
         balls={balls} setBalls={setBalls} 

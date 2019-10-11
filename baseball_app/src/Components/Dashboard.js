@@ -40,14 +40,19 @@ function Dashboard(props) {
     const handleReset = () => {
          setStrikes(0);
          setBalls(0);
+         handleAlert();
+    }
+
+    const handleAlert = () => {
+        alert('GAME OVER')
     }
     return (
         <div className="buttonContainer">
-            <button onClick={() => handleBalls()}>Balls</button>
-            <button onClick={() => handleStrikes()}>Strikes</button>
-            <button onClick={() => handleFouls()}>Fouls</button>
-            <button onClick={() => handleHits()}>Hit</button>
-            <button onClick={() => handleReset()}>Reset</button>
+            <button className="btnBall" onClick={() => handleBalls()}>Balls</button>
+            <button className="btnStrikes" onClick={() => handleStrikes()}>Strikes</button>
+            <button className="btnFouls" onClick={() => handleFouls()}>Fouls</button>
+            <button className="btnHit" onClick={() => handleHits()}>Hit</button>
+            <button className="btnReset" onClick={() => handleReset()}>Reset</button>
         </div>
     )
 }
