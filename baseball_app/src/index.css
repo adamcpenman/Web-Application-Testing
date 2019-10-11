@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Cabin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FF4466;
+}
+
+code {
+font-family: 'Inconsolata', monospace;
+font-family: 'Cabin', sans-serif;
+}
